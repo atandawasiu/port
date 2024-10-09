@@ -1,0 +1,288 @@
+/********** Template CSS **********/
+
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  animation: bounce 2s infinite;
+  color: rgb(47, 169, 47);
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/* .whatsapp-float{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: #fff;
+  padding: 10px;
+  border-radius: 70%;
+  font-size: 24px;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(black);
+}
+
+.whatsapp-float i{
+right: 20px;
+}
+
+@keyframes float{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-10px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+} */
+
+
+/* 
+.back-to-top {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  right: 1.875rem;
+  bottom: 1.875rem;
+  z-index: 9999;
+}
+.back-to-top i {
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.back-to-top{
+  scroll-behavior: smooth;
+  transition: opacity 0.5s;
+}
+
+.back-to-top:active{
+  animation: animateUp 0.3s forwards;
+} */
+
+/* @keyframes animateUp {
+0%{
+} */
+
+/*** Heading ***/
+h1,
+h2,
+h3,
+.fw-bold {
+    font-weight: 700 !important;
+}
+
+h4,
+h5,
+h6,
+.fw-medium {
+    font-weight: 500 !important;
+}
+
+
+/*** Button ***/
+.btn {
+    font-weight: 500;
+    transition: .5s;
+    color: black;
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+    color: hsl(0, 0%, 0%);
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 50px;
+}
+
+
+
+/*** Feature ***/
+.feature {
+    background: url() center center no-repeat;
+    background-size: cover;
+}
+
+
+/*** Team ***/
+.team-item {
+    transition: 1.5s;
+    border: 1px solid transparent;
+    transition: .5s;
+    color: black;
+}
+
+.team-item:hover {
+
+    border-color: hsl(60, 3%, 31%);
+}
+.team-container {
+    background-color:white ;
+    color: black;
+}
+
+
+/*** Footer ***/
+#faster {
+    background: url(../images/footer.png) center center no-repeat;
+    background-size: contain;}
+
+/* Preloder */
+
+#preloder {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: hsl(0, 0%, 100%);
+}
+
+.loader {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -13px;
+  margin-left: -13px;
+  border-radius: 60px;
+  animation: loader 0.8s linear infinite;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+    border: 4px solid hsl(45, 94%, 51%);
+    border-left-color: transparent;
+  }
+  50% {
+    transform: rotate(180deg);
+    border: 4px solid hsl(0, 0%, 100%);
+    border-left-color: transparent;
+  }
+  100% {
+    transform: rotate(360deg);
+    border: 4px solid hsl(0, 0%, 17%);
+    border-left-color: transparent;
+  }
+}
+
+
+    /* Submit Button */
+
+#button {
+        outline: none;
+        text-align: center;
+        letter-spacing: 2px;
+        text-shadow: 0;
+        font-size: 17px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.25s ease;
+      }
+     
+    #button:hover {
+        color: #fff;
+        background: linear-gradient(to bottom, #ff9900, #ff6600);
+        box-shadow: 0 0 10px rgba(255, 102, 0, 0.7);
+        /* transform: scale(1.1); */
+      }
+      
+      #button:active {
+        background: linear-gradient(to bottom, #ff6600, #ff3300);
+        box-shadow: 0 0 10px rgba(255, 51, 0, 0.7);
+        /* transform: scale(0.9); */
+      }
+      /* #button:after {
+        content: "SUBMIT";
+      }
+      
+      #button.onclic {
+        width: 40px;
+        border-color: #bbbbbb;
+        border-width: 3px;
+        font-size: 0;
+        border-left-color: #2b2b2b;
+        -webkit-animation: rotating 2s 0.25s linear infinite;
+                animation: rotating 2s 0.25s linear infinite;
+      }
+      #button.onclic:after {
+        content: "";
+      }
+      #button.onclic:hover {
+        color: #464646;
+        background: white;
+      }
+      
+      #button.validate {
+        font-size: 13px;
+        color: white;
+        background: hsl(224, 68%, 58%);
+      }
+      #button.validate:after {
+        font-family: "FontAwesome";
+        content: " ";
+      }
+       */
+
+       #button{
+        opacity: 0;
+        animation: fadeIn 0.5s forwards;
+       }
+
+
+      /* @-webkit-keyframes rotating {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+       */
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
